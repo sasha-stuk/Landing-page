@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ededed;
+}
+.top {
+  padding-right: 50px;
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-between;
+}
+.top__button {
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  outline: none;
+}
+.top__button:hover {
+  background: yellow;
+  color: black;
+}
+.under-top {
+  text-align: center;
+  padding: 80px;
+}
+.under-top__subtitle {
+  padding: 30px;
+}
+.main {
+  display: flex;
+}
+.main-content {
+  width: 600px;
+  height: 308px;
+  padding-left: 130px;
+  padding-top: 100px;
+}
+.main-content-info {
+  display: flex;
+}
+.main-content__title {
+  font-size: 30px;
+  padding: 20px;
+}
+.main-content-info {
+  font-size: 21px;
+  padding: 10px;
+}
+.main-content-latte {
+  padding-right: 10px;
+  width: 300px;
+}
+.main-content-money {
+  padding-right: 10px;
+  width: 250px;
+}
+.main-content-latte__button-latte {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+
+.main-content-latte__button-latte:hover {
+  background: yellow;
+  color: black;
+}
+.main-content-money__button-money {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+.main-content-money__button-money:hover {
+  background: yellow;
+  color: black;
+}
+.main_content-two__img {
+  width: 534px;
+  height: 534px;
+  padding-left: 100px;
+}
+.sub-content {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 130px;
+}
+
+.sub-content__subtitle {
+  padding-top: 15px;
+  width: 300px;
+}
+.sub-content__list {
+  padding-left: 400px;
+  margin-left: 15px;
+  display: block;
+}
+.sub-content__list-coffee {
+  list-style-type: none;
+  font-size: 20px;
+}
+.sub-content__list-food {
+  list-style-type: none;
+  font-size: 20px;
+  padding-left: 30px;
+}
+.delivery__content {
+  display: flex;
+  padding-top: 50px;
+}
+.delivery__content-text {
+  padding-top: 50px;
+  padding-left: 130px;
+}
+.delivery__content-title {
+  font-size: 23px;
+  padding-bottom: 15px;
+}
+
+.delivery__content-pictures {
+  padding-left: 310px;
+}
+.gift-card__title {
+  text-align: center;
+}
+.gift-card__images {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+}
+.social-media {
+  display: block;
+  padding-left: 1300px;
+}
